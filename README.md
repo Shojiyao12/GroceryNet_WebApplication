@@ -11,8 +11,8 @@ GroceryNet is a web-based application for grocery product classification and seg
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Dataset and Model](#dataset-and-model)
-6. [Download Links](#links)
-7. [Acknowledgement](#acknowledgements)
+6. [Download Links](#download-links)
+7. [Acknowledgement](#acknowledgement)
 
 ---
 
@@ -100,5 +100,5 @@ University of the Philippines Tacloban College: For providing the resources and 
 
 - **PyTorch**: For the deep learning framework.
 
-- **Segmentation Models PyTorch**: For the U-Net implementation
+- **Segmentation Models PyTorch**: For the U-Net implementation.
 
