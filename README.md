@@ -12,7 +12,7 @@ GroceryNet is a web-based application for grocery product classification and seg
 4. [Usage](#usage)
 5. [Dataset and Model](#dataset-and-model)
 6. [Download Links](#download-links)
-7. [Acknowledgement](#acknowledgement)
+7. [Acknowledgement](#Acknowledgement)
 
 ---
 
