@@ -80,10 +80,10 @@ The application will display:
 - The top-5 predictions with confidence scores.
 
 ## Dataset and Model
-**Dataset**
+**Dataset**:
 The dataset used for training and testing is the Hierarchical Grocery Store Dataset (Klasson et al., 2019). It contains images of grocery products along with their corresponding masks.
 
-**Model**
+**Model**:
 The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was trained on the dataset mentioned above and achieves high accuracy in both classification and segmentation tasks.
 
 ## Download Links
