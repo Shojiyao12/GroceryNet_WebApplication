@@ -97,7 +97,7 @@ The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was 
 
 
 ## Acknowledgments
-University of the Philippines Tacloban College: For providing the resources and support for this project.
+[University of the Philippines Tacloban College](https://www.uptacloban.edu.ph/): For providing the resources and support for this project.
 
 - **Streamlit**: For the easy-to-use web framework.
 
