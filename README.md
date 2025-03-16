@@ -1,5 +1,5 @@
 # GroceryNet: Web-based Application for Simultaneous Segmentation and Classification of Grocery Product Images
-![GroceryNet_Web_Application_Logo](https://github.com/user-attachments/assets/d57cba90-5b8f-4c1d-b7b4-2dfa1c5ce42c/200)
+![GroceryNet_Web_Application_Logo](https://github.com/user-attachments/assets/d57cba90-5b8f-4c1d-b7b4-2dfa1c5ce42c)
 
 GroceryNet is a web-based application for grocery product classification and segmentation using a dual-input parallel CNN model. It leverages multicolor spaces and pre-trained ResNeXt50_32x4d encoders to achieve accurate results. This project was developed as part of a thesis titled **"Grocery Product Image Analysis using Multicolor Dual-Input Parallel CNN for Simultaneous Semantic Segmentation and Classification"**.
 
