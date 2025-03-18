@@ -88,7 +88,8 @@ def load_model_and_data(base_dir):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = UNet(cnn_encoder1="resnext50_32x4d", cnn_encoder2="resnext50_32x4d", 
                  out_seg_channels=1, num_classes=81, pretrained=True).to(device)
-    state_dict = torch.load('SHAWJIE_final_model_run5.pth', map_location=device)
+    # best_run.pth must be in the same file location as app.py
+    state_dict = torch.load('best_run.pth', map_location=device)
     model.load_state_dict(state_dict, strict=False)
     model.eval()
     
@@ -201,8 +202,8 @@ def plot_top5_graph(top5_df):
 
 # Streamlit App
 def main():
-    # Adjust the sidebar to prevent shaking
-    st.sidebar.image(r"C:\\Users\\Shaw Jie Yao\\Desktop\\College Files\\4th Year College UP 2024-2025\\2nd Semester Subjects\\CMSC 199.2 (Lec) - G\\GroceryNet_Web_Application_Logo.jpg", width=200)
+    # edit path to logo as needed
+    st.sidebar.image(r"GroceryNet_Web_Application_Logo.jpg", width=200)
 
     # Static sidebar content without dynamic updates
     st.sidebar.markdown("""
@@ -216,8 +217,8 @@ def main():
         **Dataset:** Hierarchical Grocery Store (Klasson et al., 2019)
     """, unsafe_allow_html=True)
 
-    # Load model and data
-    base_dir = r"C:\\Users\\Shaw Jie Yao\\Desktop\\College Files\\4th Year College UP 2024-2025\\2nd Semester Subjects\\CMSC 199.2 (Lec) - G\\FINAL DATASET FOR FINAL DEFENSE-20250124T023231Z-001\\FINAL DATASET FOR FINAL DEFENSE"
+    # Load model and data, edit base_dir path as needed
+    base_dir = r"Hierarchical Grocery Store Dataset with Masks.zip"
     model, test_paths, class_to_index, index_to_class, device = load_model_and_data(base_dir)
     
     # Allow user to upload an image
