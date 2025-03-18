@@ -59,11 +59,11 @@ The model is built using PyTorch and Streamlit for the web interface.
     pip install -r requirements.txt
    
 4. **Download the Model and Dataset**:
-- Download the pre-trained model (SHAWJIE_final_model_run5.pth) and dataset from the Google Drive link.
+- Download the pre-trained model (best_run.pth) and dataset from the Google Drive link.
 
-- Place the SHAWJIE_final_model_run5.pth file in the root directory of the project.
+- Place the best_run.pth file in the root directory of the project.
 
-- Extract the dataset and place it in the appropriate directory (e.g., FINAL DATASET FOR FINAL DEFENSE).
+- Extract the dataset and place it in the appropriate directory (e.g., Hierarchical Grocery Store Dataset with Masks).
 
 ## Usage
 - **Run the Application**: streamlit run app.py
@@ -87,9 +87,9 @@ The dataset used for training and testing is the Hierarchical Grocery Store Data
 The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was trained on the dataset mentioned above and achieves high accuracy in both classification and segmentation tasks.
 
 ## Download Links
-- **Model**: Download "SHAWJIE_final_model_run5.pth" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
+- **Model**: Download "best_run.pth" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
 
-- **Dataset**: Download and extract "FINAL DATASET FOR FINAL DEFENSE.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
+- **Dataset**: Download and extract "Hierarchical Grocery Store Dataset with Masks.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
 
 - **FOUND HERE**: [https://drive.google.com/drive/u/4/folders/1FMTev5dG5ppSu_48APMlS8w9J2StLTFf](https://drive.google.com/drive/folders/1FMTev5dG5ppSu_48APMlS8w9J2StLTFf?usp=sharing)
 
