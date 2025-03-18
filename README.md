@@ -91,8 +91,6 @@ The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was 
 
 - **Dataset**: Download and extract "Hierarchical Grocery Store Dataset with Masks.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
 
-- **FOUND HERE**: [https://drive.google.com/drive/u/4/folders/1FMTev5dG5ppSu_48APMlS8w9J2StLTFf](https://drive.google.com/drive/folders/1FMTev5dG5ppSu_48APMlS8w9J2StLTFf?usp=sharing)
-
 ## GUI of GroceryNet
 ![image](https://github.com/user-attachments/assets/fa892dcf-995c-480b-99da-8385b0535e01)
 ![image](https://github.com/user-attachments/assets/a31418a7-0ac1-4083-9a42-7f42122c3df8)
