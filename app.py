@@ -203,7 +203,7 @@ def plot_top5_graph(top5_df):
 # Streamlit App
 def main():
     # edit path to logo as needed
-    st.sidebar.image(r"GroceryNet_Web_Application_Logo.jpg", width=200)
+    st.sidebar.image(r"C:Downloads\GroceryNet_Web_Application_Logo.jpg", width=200)
 
     # Static sidebar content without dynamic updates
     st.sidebar.markdown("""
@@ -218,7 +218,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # Load model and data, edit base_dir path as needed
-    base_dir = r"Hierarchical Grocery Store Dataset with Masks.zip"
+    base_dir = r"C:Downloads\Hierarchical Grocery Store Dataset with Masks.zip"
     model, test_paths, class_to_index, index_to_class, device = load_model_and_data(base_dir)
     
     # Allow user to upload an image
