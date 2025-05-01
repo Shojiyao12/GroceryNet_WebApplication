@@ -87,7 +87,7 @@ The dataset used for training and testing is the Hierarchical Grocery Store Data
 The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was trained on the dataset mentioned above and achieves high accuracy in both classification and segmentation tasks.
 
 ## Download Links
-- **Model**: Download "best_run.pth" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
+- **Model**: Download "best_run.pth" [https://drive.google.com/file/d/1Ew-54l0w0p4EDOTzy-urv_eaVSQ-wP2s/view?usp=sharing](https://drive.google.com/file/d/1Ew-54l0w0p4EDOTzy-urv_eaVSQ-wP2s/view?usp=sharing)
 
 - **Dataset**: Download and extract "Hierarchical Grocery Store Dataset with Masks.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
 
