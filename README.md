@@ -41,24 +41,31 @@ The model is built using PyTorch and Streamlit for the web interface.
 
 ### Prerequisites
 - Python 3.8 or higher
-- pip (Python package manager)
+- pip (Python Package Manager)
+- Jupyter Notebook (optional, for going through how the model was trained)
+- Git (optional, for cloning the repository)
+- Streamlit (https://streamlit.io/)
+- A code editor (e.g., VSCode or PyCharm)
 
 ### Steps
-1. **Clone the Repository**:
-   ```bash
-    git clone https://github.com/your-username/GroceryNet.git
-    cd GroceryNet
+1. **Clone the Repository (Optional)**: 
+   If you have not already downloaded the project files, you can clone the repository, where the “your-username” is your github username:
+
+   ```bash 
+   git clone https://github.com/your-username/GroceryNet.git, 
+   cd GroceryNet
+
+  Alternatively, if the files were manually downloaded, ensure you are in the correct project directory.
+
 
 2. **Set Up a Virtual Environment (Optional but Recommended)**:
+   To avoid package conflicts, create and activate a virtual environment:
+
    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. **Install Dependencies**:
-   ```bash
-    pip install -r requirements.txt
    
-4. **Download the Model and Dataset**:
+3. **Download the Model and Dataset**:
 - Download the pre-trained model (best_run.pth) and dataset from the Google Drive link.
 
 - Place the best_run.pth file in the root directory of the project.
@@ -90,6 +97,9 @@ The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was 
 - **Model**: Download "best_run.pth" [https://drive.google.com/file/d/1Ew-54l0w0p4EDOTzy-urv_eaVSQ-wP2s/view?usp=sharing](https://drive.google.com/file/d/1Ew-54l0w0p4EDOTzy-urv_eaVSQ-wP2s/view?usp=sharing)
 
 - **Dataset**: Download and extract "Hierarchical Grocery Store Dataset with Masks.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
+
+- **Model Training**: Download "GroceryNetImplementation.ipynb" [https://drive.google.com/file/d/1w1wdFu67Zuy9zPtBJrKUnmYyXjSt-mjN/view?usp=sharing](https://drive.google.com/file/d/1w1wdFu67Zuy9zPtBJrKUnmYyXjSt-mjN/view?usp=sharing)
+Note: The "Model Training" link is provided for those who want to go through how the model was trained.
 
 ## GUI of GroceryNet
 ![image](https://github.com/user-attachments/assets/fa892dcf-995c-480b-99da-8385b0535e01)
