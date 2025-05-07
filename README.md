@@ -40,7 +40,7 @@ The model is built using PyTorch and Streamlit for the web interface.
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.8 or higher (https://www.python.org/downloads/)
 - pip (Python Package Manager)
 - Jupyter Notebook (optional, for going through how the model was trained)
 - Git (optional, for cloning the repository)
@@ -52,7 +52,7 @@ The model is built using PyTorch and Streamlit for the web interface.
    If you have not already downloaded the project files, you can clone the repository, where the “your-username” is your github username:
 
    ```bash 
-   git clone https://github.com/your-username/GroceryNet.git, 
+   git clone https://github.com/your-username/GroceryNet.git 
    cd GroceryNet
 
   Alternatively, if the files were manually downloaded, ensure you are in the correct project directory.
@@ -61,10 +61,12 @@ The model is built using PyTorch and Streamlit for the web interface.
 2. **Set Up a Virtual Environment (Optional but Recommended)**:
    To avoid package conflicts, create and activate a virtual environment:
 
+   Windows:
    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   
+    python -m venv venv          # for Mac/Linux: python3 -m venv venv
+    venv\Scripts\activate        # source venv/bin/activate
+  
+
 3. **Download the Model and Dataset**:
 - Download the pre-trained model (best_run.pth) and dataset from the Google Drive link.
 
@@ -73,9 +75,12 @@ The model is built using PyTorch and Streamlit for the web interface.
 - Extract the dataset and place it in the appropriate directory (e.g., Hierarchical Grocery Store Dataset with Masks).
 
 ## Usage
-- **Run the Application**: streamlit run app.py
-- **Upload an Image**: Use the file uploader in the web interface to upload a grocery product image (JPG or PNG format).
+- **Run the Application**: streamlit run "app.py"
+Example:
+![image](https://github.com/user-attachments/assets/a21192dc-db7c-4206-a970-7d825796c566)
 
+- **Upload an Image**: Use the file uploader in the web interface to upload a grocery product image (JPG or PNG format).
+  
 ## View Results:
 
 The application will display:
