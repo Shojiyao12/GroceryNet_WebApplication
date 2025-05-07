@@ -76,6 +76,7 @@ The model is built using PyTorch and Streamlit for the web interface.
 
 ## Usage
 - **Run the Application**: streamlit run "app.py"
+
 Example:
 ![image](https://github.com/user-attachments/assets/a21192dc-db7c-4206-a970-7d825796c566)
 
