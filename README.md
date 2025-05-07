@@ -105,6 +105,7 @@ The model is a Parallel U-Net with pre-trained ResNeXt50_32x4d encoders. It was 
 - **Dataset**: Download and extract "Hierarchical Grocery Store Dataset with Masks.zip" [https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing](https://drive.google.com/file/d/1swV1AqYNt6miggjxV9pImcS4W_Ef8DB9/view?usp=sharing)
 
 - **Model Training**: Download "GroceryNetImplementation.ipynb" [https://drive.google.com/file/d/1w1wdFu67Zuy9zPtBJrKUnmYyXjSt-mjN/view?usp=sharing](https://drive.google.com/file/d/1w1wdFu67Zuy9zPtBJrKUnmYyXjSt-mjN/view?usp=sharing)
+
 Note: The "Model Training" link is provided for those who want to go through how the model was trained.
 
 ## GUI of GroceryNet
